@@ -1,0 +1,22 @@
+.NavBar {
+  display: flex;
+  background-color: #5c5c5c;
+  border-radius: 20px;
+  justify-content: center;
+}
+
+.NavBar ul {
+  list-style-type: none;
+  margin-right: 30px;
+  display: flex;
+}
+
+.NavBar ul li {
+  text-align: center;
+  padding-right: 25px;
+}
+
+.Link{
+color: black;
+text-decoration: none;
+}
