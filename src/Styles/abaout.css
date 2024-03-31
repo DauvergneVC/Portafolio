@@ -1,34 +1,39 @@
+
 h1{
+    margin-top: 70px;
     margin-left: 25%;
     margin-right: 25%;
 }
 .Me{
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 20%;
+    margin-right: 20%;
     display: flex;
 }
 
 .Me .Abaout{
 border-radius: 30px;
 background-color: #4747474b;
+    max-width: 75%;
 }
 
 .Me .Abaout h2{
-
+    margin-left: 40px;
 }
 
 .Me .Abaout p{
-
+    max-width: 75%;
+    margin-left: 40px;
 }
 
 .Me img {
     /*Posicion y tamañao*/
     margin-left: 30px ;
-    width: 255px;
-    height: 255px;
+    width: 350px;
+    height: 300px;
     
-    /* display: inline-block;
-    position: relative; */
+    /*Redondear imagen*/
+    display: inline-block;
+    position: relative;
     overflow: hidden;
     border-radius: 50%;
 }

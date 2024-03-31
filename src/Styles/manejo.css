@@ -1,0 +1,23 @@
+.TituloManejo{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.Manejo{
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    border-radius: 30px;
+
+    /*Colors*/
+    background-color: black;
+    color: white;
+
+    justify-content: space-between;
+}
+
+.Manejo ul{
+    list-style-type: none;
+    margin-right: 40px;
+    
+}
