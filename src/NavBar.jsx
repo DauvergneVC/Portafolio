@@ -1,4 +1,6 @@
 import "./Styles/NavBar.css";
+//archivo para descargar
+import Curriculum from "../public/download/VicenteDauvergne_curriculum.pdf";
 
 function NavBar() {
   return (
@@ -21,6 +23,9 @@ function NavBar() {
             </a>
           </li>
         </ul>
+        <a type={"button"} href={Curriculum} download className={"Descargar"}>
+            Descargar curriculum
+          </a>
       </nav>
     </header>
   );

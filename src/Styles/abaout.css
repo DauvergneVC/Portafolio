@@ -1,39 +1,71 @@
-
-h1{
-    margin-top: 70px;
-    margin-left: 25%;
-    margin-right: 25%;
+h1 {
+  margin-top: 70px;
+  margin-left: 40%;
+  margin-right: 40%;
 }
-.Me{
-    margin-left: 20%;
-    margin-right: 20%;
-    display: flex;
-}
-
-.Me .Abaout{
-border-radius: 30px;
-background-color: #4747474b;
-    max-width: 75%;
+.Me {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
 }
 
-.Me .Abaout h2{
-    margin-left: 40px;
+.Me .Abaout {
+  border-radius: 30px;
+  background-color: #4747474b;
+  max-width: 75%;
 }
 
-.Me .Abaout p{
-    max-width: 75%;
-    margin-left: 40px;
+.Me .Abaout h2 {
+  margin-left: 40px;
 }
 
-.Me img {
-    /*Posicion y tamañao*/
-    margin-left: 30px ;
-    width: 350px;
-    height: 300px;
-    
-    /*Redondear imagen*/
-    display: inline-block;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
+.Me .Abaout p {
+  max-width: 75%;
+  margin-left: 40px;
+}
+
+.FotoYlinks {
+  margin-left: 30px;
+}
+
+.FotoYlinks #Me {
+  /*Posicion y tamañao*/
+  width: 280px;
+  height: 300px;
+
+  /*Redondear imagen*/
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+
+  border-color: #4747474b;
+  border-style: solid;
+  border-width: 5px;
+}
+
+.FotoYlinks ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+  padding-left: 15px;
+}
+
+.FotoYlinks ul li {
+  padding: 10px;
+  background-color: #4747474b;
+  border-radius: 30px;
+  
+}
+
+.FotoYlinks a {
+  text-decoration: none;
+  color: black;
+
+  /*Texto y posicion*/
+  display: flex;
+  line-height: 25px;
+  padding-right: 5px;
+  padding-left: 5px;
 }

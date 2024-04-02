@@ -10,14 +10,14 @@
     border-radius: 30px;
 
     /*Colors*/
-    background-color: black;
-    color: white;
+    background-color: #4747474b;
+    color: black;
 
     justify-content: space-between;
 }
 
 .Manejo ul{
     list-style-type: none;
-    margin-right: 40px;
+    margin-right: 100px;
     
 }

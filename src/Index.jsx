@@ -1,5 +1,11 @@
+// Styles
 import "./Styles/abaout.css";
 import "./Styles/manejo.css";
+
+//Static images
+import me from "./assets/images/me.jpg";
+import gitHub from "./assets/icons/github.svg";
+import linkedin from "./assets/icons/linkedin.svg";
 
 export function Abaout() {
   return (
@@ -8,7 +14,7 @@ export function Abaout() {
         Vicente Ignacio <br />
         Dauvergne
       </h1>
-      <div className="Me">
+      <div className={"Me"}>
         <div className="Abaout">
           <h2>Sobre mi</h2>
           <p>
@@ -17,10 +23,29 @@ export function Abaout() {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio earum
             quis possimus nesciunt omnis consequatur velit, consectetur eius
             amet dolorum beatae pariatur quam autem nihil natus sit aliquid
-            officia? Quod!
+            officia? Quod! Lorem, ipsum dolor sit amet consectetur adipisicing
+            elit. Ipsum nesciunt asperiores magni blanditiis nam quaerat
+            delectus dolorum reprehenderit quis, consequatur ad ullam corporis
+            ducimus minus repellat repudiandae! Sequi, quia error!
           </p>
         </div>
-        <img src="../public/images/me_3.jpg" alt="me"></img>
+        <div className={"FotoYlinks"}>
+          <img src={me} alt="me" id={"Me"}></img>
+          <ul>
+            <li>
+              <a href={"https://www.linkedin.com/in/dauvergnevicente"}>
+                <img src={linkedin} />
+                Linkedin
+              </a>
+            </li>
+            <li>
+              <a href={"https://github.com/DauvergneVC"}>
+                <img src={gitHub} />
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );
